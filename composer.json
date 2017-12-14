@@ -1,0 +1,12 @@
+{
+  "name": "wubook",
+  "description": "Wubook xmlrpc proxy",
+  "keywords": ["xmlrpc", "wubook"],
+  "type": "class",
+  "homepage": "https://site.com/",
+  "license" : "GPL-2.0+",
+  "require": {
+    "php": ">=5.6.0",
+    "composer/installers": "~1.0"
+  }
+}
