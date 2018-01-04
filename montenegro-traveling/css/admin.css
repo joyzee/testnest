@@ -1,0 +1,120 @@
+.nav-tab-wrapper>span.nav-tab {
+  cursor: pointer;
+}
+
+.tab-content {
+  min-height: 30em;
+}
+
+.tab-content:not(:first-of-type) {
+  display: none;
+}
+
+.inline {
+  display: inline-block;
+}
+.inbox-wraper {
+  margin: 0 -6px -6px;
+  padding: 6px;
+  border: 1px solid #ddd;
+  background-color: #fdfdfd;
+  box-sizing:border-box;
+}
+
+.inbox-wraper *, .inbox-wraper *:before, .inbox-wraper *:after{
+  box-sizing:inherit;
+}
+
+.inbox-wraper label, .inbox-wraper div{
+  display: inline-block;
+  padding: 4px;
+  margin: 0;
+  float: left;
+}
+
+.block input[type=text], .block textarea {
+  width: 100%;
+}
+
+.inbox-wraper input[type=text], .inbox-wraper textarea {
+  margin: 1px;
+  padding: 2px 4px;
+}
+
+.inbox-wraper input[type=checkbox], .inbox-wraper input[type=radio] {
+  vertical-align: middle;
+}
+
+.inbox-wraper .hl {
+  line-height: 2.1em;
+}
+
+.inbox-wraper .curtail {
+  margin-bottom: 0;
+  padding-bottom: 2px;
+}
+
+.inbox-wraper .curtail+fieldset{
+  margin-top: 0;
+  padding-top: 2px;  
+}
+
+.inbox-wraper .break {
+  float: left;
+  clear: left;
+  display: inline-block;
+} 
+.inbox-wraper legend {
+  font-weight: 600;
+  padding: 0; 
+  margin: 0 auto;
+  font-size: 15px;
+  color: #777;
+}
+.inbox-wraper fieldset {
+  padding: 12px 0;
+  margin: 6px 0;  
+}
+/* helpers */
+.n10d10, .n1d1 {
+  width: 100% !important;
+}
+.n9d10 {
+  width: 90% !important;
+}
+.n8d10, .n4d5 {
+  width: 80% !important;
+}
+.n3d4 {
+  width: 75% !important;
+}
+.n7d10 {
+  width: 70% !important;
+}
+.n2d3 {
+  width: 66.66% !important;
+}
+.n6d10, .n3d5 {
+  width: 60% !important;
+}
+.n5d10, .n2d4, .n1d2 {
+  width: 50% !important;
+}
+.n4d10, .n2d5 {
+  width: 40% !important;
+}
+.n1d3 {
+  width: 33.33% !important;
+}
+.n3d10 {
+  width: 30% !important;
+}
+.n1d4 {
+  width: 25% !important;
+}
+.n2d10, .n1d5 {
+  width: 20% !important;
+}
+.n1d10 {
+  width: 10% !important;
+}
